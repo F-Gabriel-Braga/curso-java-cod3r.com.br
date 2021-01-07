@@ -1,4 +1,4 @@
-package fundamentos.desafios;
+package desafios;
 
 public class DesafioAritmeticos {
     public static void main(String[] args) {
