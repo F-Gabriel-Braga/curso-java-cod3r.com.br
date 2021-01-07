@@ -1,9 +1,11 @@
 package desafios;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class DesafioCalculadora {
     public static void main(String[] args) {
+        // Realizar uma operação aritmética usando Operador Ternário
+
         int num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número:"));
         int num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número:"));
         char oper = JOptionPane.showInputDialog("Digite a operação desejada (+, -, *, /, %):").trim().charAt(0);

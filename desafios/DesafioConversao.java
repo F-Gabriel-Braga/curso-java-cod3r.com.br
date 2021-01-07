@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class DesafioConversao {
     public static void main(String[] args) {
+        /*
+        * Calcular media de três salários informados
+        * - Tanto o "," e "." deve ser aceito como entrada*/
+
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o sálario 01 (R$):");
         String salario01 = entrada.next().replace(",", ".");

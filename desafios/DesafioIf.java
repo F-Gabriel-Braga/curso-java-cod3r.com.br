@@ -2,6 +2,8 @@ package desafios;
 
 public class DesafioIf {
     public static void main(String args[]) {
+        //Encontrar o BUG no código abaixo
+
         double nota = 1.3;
 
         if(nota >= 9.0); {

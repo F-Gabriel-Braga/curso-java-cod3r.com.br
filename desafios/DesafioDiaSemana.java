@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class DesafioDiaSemana {
     public static void main(String[] args) {
+        // Através do dia da semana informado, voltar o número correspondente
         // Domingo -> 1
         // Segunda -> 2
         // Terça -> 3
