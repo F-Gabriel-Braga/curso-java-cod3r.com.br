@@ -2,8 +2,11 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class CalculaIMC {
+public class Exercicio0301 {
     public static void main(String[] args) {
+        /*
+        * 3. Criar um programa que leia o peso e a altura do usuário e imprima no console o IMC.
+        */
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite a altura: (m)");
         double altura = Double.parseDouble(entrada.nextLine().replace(",", "."));

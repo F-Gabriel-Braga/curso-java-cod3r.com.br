@@ -2,8 +2,13 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class FormulaDeBhaskara {
+public class Exercicio0601 {
     public static void main(String[] args) {
+        /*
+        * 6. Criar um programa que resolve equações do segundo grau (ax2 + bx + c = 0)
+        * utilizando a fórmula de Bhaskara. Use como exemplo a = 1, b = 12 e c = -13.
+        * Encontre o delta.
+        */
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o valor de a:");
         int a = entrada.nextInt();
