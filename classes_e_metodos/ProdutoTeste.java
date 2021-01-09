@@ -13,10 +13,10 @@ public class ProdutoTeste {
         p2.desconto = 0.10;
 
         System.out.println(p1.nome);
-        double preco1 = p1.preco * (1 - p1.desconto);
+        double preco1 = p1.precoComDesconto();
         System.out.println(preco1);
         System.out.println(p2.nome);
-        double preco2 = p2.preco * (1 - p2.desconto);
+        double preco2 = p2.precoComDesconto();
         System.out.println(preco2);
         System.out.println("Total " + (preco1 + preco2));
     }

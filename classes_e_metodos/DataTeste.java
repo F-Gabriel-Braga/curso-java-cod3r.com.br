@@ -9,7 +9,7 @@ public class DataTeste {
         data1.dia = "30";
         data1.mes = "Dezembro";
         data1.ano = "2018";
-        System.out.printf("%s %s de %s\n", data1.dia, data1.mes, data1.ano);
+        System.out.println(data1.obterDataFormatada());
 
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o dia:");
@@ -19,6 +19,6 @@ public class DataTeste {
         System.out.println("Digite o ano:");
         data2.ano = entrada.next();
         entrada.close();
-        System.out.printf("%s %s de %s\n", data2.dia, data2.mes, data2.ano);
+        System.out.println(data2.obterDataFormatada());
     }
 }
