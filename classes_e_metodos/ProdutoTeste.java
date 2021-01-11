@@ -7,10 +7,7 @@ public class ProdutoTeste {
         p1.preco = 3_999.99;
         p1.desconto = 0.25;
 
-        Produto p2 = new Produto();
-        p2.nome = "Caneta";
-        p2.preco = 1.99;
-        p2.desconto = 0.10;
+        Produto p2 = new Produto("Caneta", 1.99, 0.10);
 
         System.out.println(p1.nome);
         double preco1 = p1.precoComDesconto();

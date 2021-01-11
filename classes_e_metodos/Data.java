@@ -5,6 +5,18 @@ public class Data {
     String mes;
     String ano;
 
+    Data() {
+        dia = "01";
+        mes = "Janeiro";
+        ano = "1970";
+    }
+
+    Data(String dia, String mes, String ano) {
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
+    }
+
     String obterMes(String mes) {
         if(mes.equalsIgnoreCase("janeiro")) {
             return "01";
