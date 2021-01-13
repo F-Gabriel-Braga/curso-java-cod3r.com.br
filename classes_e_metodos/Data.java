@@ -6,9 +6,10 @@ public class Data {
     String ano;
 
     Data() {
-        dia = "01";
+        /*dia = "01";
         mes = "Janeiro";
-        ano = "1970";
+        ano = "1970";*/
+        this("01", "Janeiro", "1970");
     }
 
     Data(String dia, String mes, String ano) {
