@@ -1,4 +1,4 @@
-package orientacao_a_objetos.heranca.modificadores_de_acesso.casa_1;
+package orientacao_a_objetos.heranca.encapsulamento.casa_1;
 
 public class Ana {
     @SuppressWarnings("unused")
