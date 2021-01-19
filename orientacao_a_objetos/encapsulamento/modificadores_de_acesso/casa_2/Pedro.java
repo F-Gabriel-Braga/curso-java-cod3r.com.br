@@ -1,6 +1,6 @@
-package orientacao_a_objetos.heranca.encapsulamento.casa_2;
+package orientacao_a_objetos.encapsulamento.modificadores_de_acesso.casa_2;
 
-import orientacao_a_objetos.heranca.encapsulamento.casa_1.Ana;
+import orientacao_a_objetos.encapsulamento.modificadores_de_acesso.casa_1.Ana;
 
 public class Pedro extends Ana {
     // Ana mae = new Ana();

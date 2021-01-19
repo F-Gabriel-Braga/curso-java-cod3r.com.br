@@ -1,4 +1,4 @@
-package orientacao_a_objetos.heranca.encapsulamento;
+package orientacao_a_objetos.encapsulamento.getter_and_setter;
 
 public class Pessoa {
     private int idade;
