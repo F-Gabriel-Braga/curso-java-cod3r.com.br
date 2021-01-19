@@ -1,4 +1,4 @@
-package orientacao_a_objetos.desafio_composicao;
+package orientacao_a_objetos.composicao.desafio_composicao;
 
 public class Item {
     Compra compra;

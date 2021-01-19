@@ -1,4 +1,4 @@
-package orientacao_a_objetos.relacao_um_para_muitos;
+package orientacao_a_objetos.composicao.relacao_um_para_muitos;
 
 public class Item {
     Compra compra;

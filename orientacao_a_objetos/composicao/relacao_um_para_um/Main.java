@@ -1,4 +1,4 @@
-package orientacao_a_objetos.relacao_um_para_um;
+package orientacao_a_objetos.composicao.relacao_um_para_um;
 
 public class Main {
     public static void main(String[] args) {
