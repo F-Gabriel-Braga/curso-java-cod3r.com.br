@@ -1,10 +1,11 @@
-package orientacao_a_objetos.heranca.game;
+package orientacao_a_objetos.heranca.game.teste;
+
+import orientacao_a_objetos.heranca.game.Heroi;
+import orientacao_a_objetos.heranca.game.Monstro;
 
 public class Jogo {
     public static void main(String[] args) {
-        Monstro monstro = new Monstro();
-        monstro.x = 10;
-        monstro.y = 10;
+        Monstro monstro = new Monstro(10,10);
 
         Heroi heroi = new Heroi(10, 11);
 

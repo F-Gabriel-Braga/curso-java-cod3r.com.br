@@ -1,14 +1,14 @@
 package orientacao_a_objetos.heranca.desafio_heranca;
 
 public class Carro {
-    double velocidade = 0;
-    final double VELOCIDADE_MAXIMA;
+    public double velocidade = 0;
+    protected final double VELOCIDADE_MAXIMA;
 
     Carro(double velocidade_maxima) {
         this.VELOCIDADE_MAXIMA = velocidade_maxima;
     }
 
-    boolean frear() {
+    public boolean frear() {
         if(velocidade >= 5) {
             velocidade -= 5.0;
             return true;
@@ -19,7 +19,7 @@ public class Carro {
         return false;
     }
 
-    boolean acelerar() {
+    public boolean acelerar() {
         if((velocidade + 5) < VELOCIDADE_MAXIMA) {
             velocidade += 5.0;
             return true;
