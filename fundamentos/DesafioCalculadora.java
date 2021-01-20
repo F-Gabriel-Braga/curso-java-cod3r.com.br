@@ -1,4 +1,4 @@
-package desafios;
+package fundamentos;
 
 import javax.swing.JOptionPane;
 

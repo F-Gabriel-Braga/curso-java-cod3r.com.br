@@ -1,4 +1,4 @@
-package desafios;
+package estruturas_de_controle;
 
 public class DesafioIf {
     public static void main(String args[]) {

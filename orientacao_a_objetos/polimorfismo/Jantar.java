@@ -6,11 +6,11 @@ public class Jantar {
 
         System.out.println(convidado.getPeso());
 
-        Arroz arroz = new Arroz(2.0);
+        Comida arroz = new Arroz(2.0);
         convidado.comer(arroz);
         System.out.println(convidado.getPeso());
 
-        Sorvete sorvete = new Sorvete(3.0);
+        Comida sorvete = new Sorvete(3.0);
         convidado.comer(sorvete);
         System.out.println(convidado.getPeso());
     }

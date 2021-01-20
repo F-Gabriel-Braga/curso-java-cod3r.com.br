@@ -1,4 +1,4 @@
-package desafios;
+package arrays_e_collections;
 
 import java.util.Scanner;
 

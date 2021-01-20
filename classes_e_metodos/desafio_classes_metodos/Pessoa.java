@@ -1,4 +1,4 @@
-package desafios.desafio_modulo_classes_metodos;
+package classes_e_metodos.desafio_classes_metodos;
 
 public class Pessoa {
 

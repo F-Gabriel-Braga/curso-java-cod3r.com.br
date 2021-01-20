@@ -13,11 +13,23 @@ public class Main {
         civic.frear();
 
         Ferrari ferrari = new Ferrari();
+        ferrari.ligarAr();
         ferrari.frear();
         ferrari.acelerar();
         ferrari.acelerar();
         ferrari.acelerar();
         ferrari.frear();
+
+        ferrari.ligarTurbo();
+        ferrari.desligarAr();
+        ferrari.acelerar();
+        ferrari.acelerar();
+        ferrari.desligarTurbo();
+        ferrari.ligarAr();
+        ferrari.acelerar();
+        ferrari.frear();
+
+        // System.out.println(ferrari.velocidadeDoAr());
 
         System.out.printf("Ferrari: %.2f km/h\n", ferrari.velocidade);
         System.out.printf("Civic: %.2f km/h\n", civic.velocidade);
