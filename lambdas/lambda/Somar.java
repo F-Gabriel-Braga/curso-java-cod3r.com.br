@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.lambda;
 
 public class Somar implements Calculo {
 

@@ -1,6 +1,6 @@
-package lambdas;
+package lambdas.lambda;
 
-public class Main {
+public class TesteLambda1 {
     public static void main(String[] args) {
 //        Calculo soma = new Somar();
 //        Calculo multiplica = new Multiplicar();
